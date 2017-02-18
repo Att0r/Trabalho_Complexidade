@@ -1,6 +1,8 @@
 # Trabalho_Complexidade
 Disciplina: Inteligência Artificial. Professor: Carlos Eduardo Costa Vieira. Data de entrega: 24/03/2017.
 
+//Algoritmo de Fibonacci de complexidade exponencial – Ο (2n)    
+    
 package Fib1;
 
 public class Fibonacci {
