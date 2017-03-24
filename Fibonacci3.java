@@ -1,3 +1,8 @@
+# Trabalho_Complexidade
+Disciplina: Inteligência Artificial. Professor: Carlos Eduardo Costa Vieira. Data de entrega: 24/03/2017.
+
+//Algoritmo de Fibonacci de complexidade logarítmica – O(log(n))
+
 package Fib2;
 
 
@@ -26,7 +31,7 @@ public class Fibonacci {
             
            //INSIRA POSIÇÃO SOLICITA ABAIXO:
            long tempoInicio = System.currentTimeMillis();
-            System.out.println(Fibonacci.fibo(350));
+            System.out.println(Fibonacci.fibo(6));
            System.out.println("Tempo Total: "+(System.currentTimeMillis()-tempoInicio));
         }
  
