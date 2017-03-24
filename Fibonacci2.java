@@ -28,11 +28,11 @@ public class Fibonacci {
     }
  
     public static void main(String[] args) {
- 
-	// teste do programa. Imprime os 30 primeiros termos
-        //for (int i = 0; i < 30; i++) {
-           // System.out.print("(" + i + "):" + Fibonacci.fibo(i) + "\t");
+            
+           //INSIRA POSIÇÃO SOLICITA ABAIXO:
+           long tempoInicio = System.currentTimeMillis();
             System.out.println(Fibonacci.fibo(6));
+           System.out.println("Tempo Total: "+(System.currentTimeMillis()-tempoInicio));
         }
  
     }
